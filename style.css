@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+header{
+    position: fixed;
+    top: 0px;
+    height: 80px;
+    width: 1535px;
+    display: flex;
+    background-color: #fbfbfb;
+}
+
+.logo{
+    margin: 18px 0px 0px 49px;
+    height: 60px;
+    width: 60px;
+    background-image: url("myntra_logo.webp");
+    background-size: contain; 
+    background-repeat: no-repeat; 
+}
+.navbar{
+    display: flex;
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: 650;
+}
+
+.man{
+    margin-left: 72px;
+}
+.woman{
+    margin-left: 32px;
+}
+.kids{
+    margin-left: 32px;
+}
+.home_living{
+    margin-left: 32px;
+}
+.beauty{
+    margin-left: 32px;
+}
+.studio{
+    margin-top: -2px;
+    margin-left: 32px;
+}
+.new{
+    color: red;
+    font-size: 9px;
+}
+.search{
+    margin-top: 20px;
+    display: flex;
+}
+#search_icon{
+    margin-left: 60px;
+    padding: 7px 0px 0px 7px;
+    border: 1px solid #f5f5f6;
+    height: 31px;
+    width: 35px;
+    background: #f5f5f6;
+    border-radius: 4px 0 0 4px;
+}
+.search_bar{
+    border: 1px solid #f5f5f6;
+    background: #f5f5f6;
+    height: 40px;
+    width: 475px;
+    border-radius: 0 4px 4px 0;
+}
+
+.icon{
+    display: flex;
+    margin-top: 20px;
+}
+#profile{
+    margin-left: 50px;
+    font-size: 25px;
+}
+#like{
+    margin-left: 50px;
+    font-size: 25px;
+}
+#bag{
+    margin-left: 50px;
+    font-size: 25px;  
+}
+.a_profile{
+    margin-left: 45px;
+    margin-top: -9px;
+    font-size: 12px;
+}
+.a_like{
+    margin-left: 55px;
+    margin-top: -9px;
+    font-size: 12px;
+}
+.a_bag{
+    margin-left: 53px;
+    margin-top: -9px;
+    font-size: 12px;
+}
+
+#bannar{
+    margin-top: 120px;
+    height: 400px;
+    background-image: url("banner.jpg");
+    background-size: cover;
+}
+.text{
+    color: #3e4152;
+    margin: 100px 0px 0px 35px;
+    font-size: 29px;
+}
+.one{
+    height: 400px;
+    width: 250px;
+    background-image: url("2.png");
+    background-size: cover;
+}
+.two{
+    height: 400px;
+    width: 250px;
+    background-image: url("4.png");
+    background-size: cover;
+}
+.three{
+    height: 400px;
+    width: 250px;
+    background-image: url("5.png");
+    background-size: cover;
+}
+.four{
+    height: 400px;
+    width: 250px;
+    background-image: url("6.png");
+    background-size: cover;
+}
+.fifth{
+    height: 400px;
+    width: 250px;
+    background-image: url("7.png");
+    background-size: cover;
+}
+.six{
+    height: 400px;
+    width: 250px;
+    background-image: url("8.png");
+    background-size: cover;
+}
+.sixphoto{
+    margin-top: 100px;
+    display: flex;
+}
+
+.one1{
+    height: 400px;
+    width: 250px;
+    background-image: url("9.png");
+    background-size: cover;
+}
+.two2{
+    height: 400px;
+    width: 250px;
+    background-image: url("10.png");
+    background-size: cover;
+}
+.three3{
+    height: 400px;
+    width: 250px;
+    background-image: url("11.png");
+    background-size: cover;
+}
+.four4{
+    height: 400px;
+    width: 250px;
+    background-image: url("12.png");
+    background-size: cover;
+}
+.fifth5{
+    height: 400px;
+    width: 250px;
+    background-image: url("4.png");
+    background-size: cover;
+}
+.six6{
+    height: 400px;
+    width: 250px;
+    background-image: url("2.png");
+    background-size: cover;
+}
+
+
+
+.ek{
+    margin-left: 50px;
+    height: 350px;
+    width: 230px;
+    background-image: url("1.jpg");
+    background-size: cover;
+}
+.be{
+    margin-left: 7px;
+    height: 350px;
+    width: 230px;
+    background-image: url("2.jpg");
+    background-size: cover;
+}
+.tran{
+    margin-left: 25px;
+    height: 350px;
+    width: 230px;
+    background-image: url("3.jpg");
+    background-size: cover;
+}
+.char{
+    margin-left: 20px;
+    height: 350px;
+    width: 230px;
+    background-image: url("4.jpg");
+    background-size: cover;
+}
+.pach{
+    margin-left: 20px;
+    height: 350px;
+    width: 230px;
+    background-image: url("5.jpg");
+    background-size: cover;
+}
+.ch{
+    margin-left: 25px;
+    height: 350px;
+    width: 230px;
+    background-image: url("6.jpg");
+    background-size: cover;
+}
+
+.onephoto{
+    margin-top: -1px;
+    display: flex;
+}
+
+
+.sat{
+    margin-left: 50px;
+    height: 350px;
+    width: 230px;
+    background-image: url("7.jpg");
+    background-size: cover;
+}
+.aath{
+    margin-left: 14px;
+    height: 350px;
+    width: 230px;
+    background-image: url("8.jpg");
+    background-size: cover;
+}
+.nav{
+    margin-left: 15px;
+    height: 350px;
+    width: 230px;
+    background-image: url("9.jpg");
+    background-size: cover;
+}
+.das{
+    margin-left: 15px;
+    height: 350px;
+    width: 230px;
+    background-image: url("10.jpg");
+    background-size: cover;
+}
+
+
+.footer{
+    margin-top: 80px;
+    background-color:#FAFBFC;
+    height: 500px;
+    display: flex;
+    font-size: 12px;
+}
+.online{
+    margin-top: 35px;
+    margin-left: 220px;
+    color: #282c3f;
+}
+.customer{
+    margin:35px 0px 0px 80px;
+}
+.mobile{
+    margin:35px 0px 0px 80px;
+    color: #282c3f;
+    margin-left: 70px;
+}
+
+.d{
+    margin-top: 4px;
+    font-size: 15px;
+    color: #696b79;
+}
+
+.r{
+    margin-top: 30px
+}
+
+.play{
+    height: 42px;
+    width: 140px;
+    background-image: url("play.png");
+    background-size: cover;
+}
+.app{
+    margin-left: 10px;
+    height: 42px;
+    width: 123px;
+    background-image: url("app.png");
+    background-size: cover;
+}
+.store{
+    margin-top: 29px;
+    display: flex;
+}
+.touch{
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.facebook{
+    height: 20px;
+    width: 20px;
+    background-image: url("facebook.png");
+    background-size: cover;
+}
+.twit{
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    background-image: url("twit.png");
+    background-size: cover;
+}
+.youtube{
+    margin-left: 10px;
+    height: 20px;
+    width: 28px;
+    background-image: url("youtube.png");
+    background-size: cover;
+}
+.instagram{
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    background-image: url("instagram.png");
+    background-size: cover;
+}
+
+.app_icon{
+    display: flex;
+}
+
+
+.links{
+    margin: 35px 0px 0px 70px;
+}
+
+
+
